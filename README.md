@@ -1,4 +1,4 @@
-# React-Redux-SPA
+# React-Redux-SPA2(微信端)
 
 ## How to use
 
