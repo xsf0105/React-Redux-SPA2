@@ -10,6 +10,7 @@ import thunk from 'redux-thunk';
 import router from './router';
 import * as stores from './stores';
 
+import 'styles/global.css';
 
 const finalCreateStore = compose(
   applyMiddleware(thunk),

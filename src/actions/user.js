@@ -6,6 +6,7 @@ import type { User } from '../types/User';
 
 export function signup(user: User, router: Object) {
   return dispatch => {
+
     UserAPI.createUser(user).then(() => {
       dispatch({
         type: ActionTypes.User.USER_SIGNUP_COMPLETED

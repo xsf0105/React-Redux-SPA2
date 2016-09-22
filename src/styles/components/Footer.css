@@ -1,0 +1,16 @@
+/* footer */
+footer {
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #ccc;
+    background: #fff; }
+footer div {
+    float: left;
+    width: 25%;
+    display: inline-block; }
+footer div a {
+    display: block;
+    text-align: center;
+    padding: 16px; }

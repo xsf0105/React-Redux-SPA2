@@ -1,5 +1,6 @@
 import React, { Component, PropTypes } from 'react';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 export default class App extends Component {
 
@@ -14,6 +15,7 @@ export default class App extends Component {
         <div className="container">
           {this.props.children}
         </div>
+        <Footer/>
       </div>
     );
   }
